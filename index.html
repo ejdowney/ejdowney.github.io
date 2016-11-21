@@ -4,8 +4,8 @@
         <title>Elliot's Most Excellent Website</title>
         <style>
             body {
-                background: rgb(125, 198, 205);
-                color: rgb(45, 45, 45);
+                background: rgb(224, 22, 43);
+                color: rgb(224, 22, 43);
                 padding: 10px;
                 font-family: arial;
             }
@@ -17,21 +17,24 @@
                 max-width: 800px;
                 margin: auto;
             }
-
+            #rcorners1 {
+                border-radius: 25px;
+                margin-bottom: 10px;
+            }
+            #rcorners2 {
+                border-radius: 25px;
+                background: rgb(0, 82, 165);
+                padding: 10px; 
+                margin: auto;
+            }
+            
             /* navigation menu */
             nav {
-                background: rgb(239, 80, 41);
+                background: rgb(0, 82, 165);
                 margin: 20px auto;
                 display: flex;
                 padding: 10px;
             }
-            #rcorners1 {
-                border-radius: 25px;
-                background: #73AD21;
-                padding: 10px;
-                width: 250px;
-                height: 250px;
-}
             nav header {
                 display: flex;
                 align-items: center;
@@ -52,7 +55,7 @@
 
             /* main container area beneath menu */
             main {
-                background: rgb(245, 238, 219);
+                background: rgb(255, 255, 255);
                 display: flex;
             }
             [class=sidebar] {
@@ -74,7 +77,7 @@
 
     <body>
         <div id="all-contents"> 
-            <nav>
+            <nav id='rcorners1'>
                 <header>
                     <h1>Elliot's Website of Glory</h1>
                 </header>
@@ -84,10 +87,10 @@
                 </ul>
             </nav>
 
-            <main>
+            <main id='rcorners1'>
                 <div class="sidebar">
                     
-                    <img id="rcorners1" src ="https://imgflip.com/s/meme/Business-Cat.jpg">
+                    <img id='rcorners2' src ="https://imgflip.com/s/meme/Business-Cat.jpg">
                 </div>
                 
                 <div class="content">
